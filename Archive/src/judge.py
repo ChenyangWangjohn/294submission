@@ -39,7 +39,7 @@ CHUNK_SIZE = 512 # Target chunk size in tokens
 BATCH_SIZE_EMBEDDING = 64 # Batch size for encoding with sentence-transformer
 
 # REMOVED Gemini API Constants and check
-# API_KEY = "AIzaSyCOfIvnIeqeXiwE1EaVYkaA_BxAdXOj4W0"
+
 # MODEL_ID = "gemini-2.0-flash"
 # BASE_URL = "https://generativelanguage.googleapis.com/v1beta/openai/"
 #
