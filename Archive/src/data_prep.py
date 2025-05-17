@@ -21,7 +21,7 @@ def get_tokenizer():
         tokenizer = AutoTokenizer.from_pretrained(
             MODEL_PATH, 
             trust_remote_code=True,
-            token=
+           
         )
         print(f"Successfully loaded {MODEL_PATH} tokenizer")
         return tokenizer

@@ -62,7 +62,7 @@ def load_vllm_model(model_path: str = MODEL_NAME_OR_PATH):
         tokenizer = AutoTokenizer.from_pretrained(
             model_path,
             trust_remote_code=True,
-            token=
+
         )
         
         # 获取词汇表大小
@@ -73,7 +73,6 @@ def load_vllm_model(model_path: str = MODEL_NAME_OR_PATH):
             model_path,
             trust_remote_code=True,
             device_map="auto",
-            token="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"
         )
         
         # 调整模型词汇表大小以匹配分词器
